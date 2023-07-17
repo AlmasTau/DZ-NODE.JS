@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="input-form">
+        <input id="input" type="text">
+    </form>
+    <h2>Список подключений:</h2>
+    <ul id="connection-list"></ul>
+
+    <h2>Отправка приватного сообщения:</h2>
+    <input type="text" id="target-id" placeholder="ID подключения">
+    <input type="text" id="message-input" placeholder="Сообщение">
+    <button id="send-button">Отправить</button>
+
+    <h2>Полученные сообщения:</h2>
+    <ul id="message-list"></ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.1/socket.io.min.js" integrity="sha512-+NaO7d6gQ1YPxvc/qHIqZEchjGm207SszoNeMgppoqD/67fEqmc1edS8zrbxPD+4RQI3gDgT/83ihpFW61TG/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="index.js"></script>
+</html>
+
+
+
+
+
