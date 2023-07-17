@@ -1,0 +1,41 @@
+
+body {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+img.captcha {
+    margin-bottom: 10px;
+}
+
