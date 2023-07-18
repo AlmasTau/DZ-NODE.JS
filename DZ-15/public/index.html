@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redux Example</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="btns">
+    <h1>Redux Example</h1>
+    <button id="incr">Increment</button>
+    <button id="decr">Decrement</button>
+    <button id="clear">Clear</button>
+    <input type="text" id="addItemInput" placeholder="Enter item text">
+    <button id="addItemBtn">Add Item</button>
+    <ul id="itemList"></ul>
+  </div>
+  <div class="nums">
+    <div class="number">0</div>
+</div>
+
+<div class="items">
+    <ul id="item-list"></ul>
+</div>
+
+<div class="form">
+    <form id="add-form">
+        <input type="text" id="item-input" placeholder="Введите текст" />
+        <button type="submit" id="add-button">Добавить</button>
+    </form>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.1/socket.io.min.js"
+  integrity="sha512-+NaO7d6gQ1YPxvc/qHIqZEchjGm207SszoNeMgppoqD/67fEqmc1edS8zrbxPD+4RQI3gDgT/83ihpFW61TG/Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer type="module" src="index.js"></script></body>
+</html>
