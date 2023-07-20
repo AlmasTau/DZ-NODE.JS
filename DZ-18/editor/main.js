@@ -13,8 +13,7 @@ function createWindow() {
         }
         
     });
-    win.loadFile('public/index.html');
-    // win.loadURL('https://github.com/vitnemikin');
+    win.loadFile('sample.rtf');
 }
 
 app.whenReady()
